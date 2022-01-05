@@ -1,0 +1,14 @@
+{
+  "git.enabled": false,
+  "files.exclude": {
+    ".vscode": true,
+    "next.config.js": true,
+    ".eslintrc.json": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "README.md": true,
+    ".gitignore": true,
+    "node_modules": true,
+    ".next": true,
+  }
+}
