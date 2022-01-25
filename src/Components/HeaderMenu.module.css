@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #333;
+  right: 0px;
+  top: 7rem;
+  width: 130px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.menuList li {
+  cursor: pointer;
+  background: tomato;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.menuList li:hover {
+  background: red;
+}

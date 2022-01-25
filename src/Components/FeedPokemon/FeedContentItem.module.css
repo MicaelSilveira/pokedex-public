@@ -1,0 +1,45 @@
+.contentItem {
+  background: linear-gradient(red, #333);
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.container img {
+  width: 200px;
+}
+.contentItemShiny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  height: 300px;
+  color: white;
+  font-size: 25px;
+  width: 300px;
+  flex-direction: column;
+  margin: 15px;
+  border-radius: 15px;
+}
+@media (max-width: 48.6rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentItemShiny {
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+  }
+}
+.container {
+  display: flex;
+}
+
+.contentItem:hover {
+  background: repeating-linear-gradient(red, tomato);
+}

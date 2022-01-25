@@ -1,0 +1,27 @@
+.descri {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.descri h1 {
+  background: #333;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 15px;
+  width: 150px;
+  margin: 15px;
+}
+@media (max-width: 48.6rem) {
+  .descri {
+    display: none;
+  }
+}
+.shiny {
+  margin-left: 150px;
+}
